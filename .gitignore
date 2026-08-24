@@ -1,0 +1,141 @@
+# ============================================
+# DOUGLAS CEL - GITIGNORE
+# ============================================
+# Este arquivo especifica quais arquivos/pastas
+# NÃO devem ser commitados no repositório Git
+
+# ============================================
+# ARQUIVOS DE CONFIGURAÇÃO SENSÍVEIS
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.production.local
+config.local.js
+
+# ============================================
+# DEPENDÊNCIAS E NODE MODULES
+# ============================================
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================
+# ARQUIVOS DE SISTEMA OPERACIONAL
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ============================================
+# EDITORES DE CÓDIGO
+# ============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+
+# ============================================
+# DIRETÓRIOS DE BUILD E DISTRIBUIÇÃO
+# ============================================
+dist/
+build/
+*.min.js
+*.min.css
+coverage/
+.next/
+out/
+
+# ============================================
+# ARQUIVOS TEMPORÁRIOS
+# ============================================
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*.swp
+*.swo
+
+# ============================================
+# ARQUIVOS DE BANCO DE DADOS
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.postgres
+
+# ============================================
+# ARQUIVOS GERADOS AUTOMATICAMENTE
+# ============================================
+.cache/
+.parcel-cache
+dist/
+.turbo/
+
+# ============================================
+# SEGREDOS E CREDENCIAIS
+# ============================================
+.private/
+secrets/
+keys/
+*.pem
+*.key
+*.p12
+.env.*.key
+
+# ============================================
+# ARQUIVOS DE TESTE E COVERAGE
+# ============================================
+coverage/
+.nyc_output/
+.mocha
+test/temp/
+
+# ============================================
+# ARQUIVOS DE COMPILAÇÃO
+# ============================================
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# ============================================
+# ARQUIVOS DE LOCK (comentar se necessário sincronizar)
+# ============================================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# ARQUIVOS PESSOAIS E LOCAIS
+# ============================================
+local/
+personal/
+*.personal
+.local/
+
+# ============================================
+# ARQUIVOS DE DESENVOLVIMENTO
+# ============================================
+.eslintcache
+.prettierignore
+.vscode/settings.json
